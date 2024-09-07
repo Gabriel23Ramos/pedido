@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedido de Namoro</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: pink;
+      font-family: Arial, sans-serif;
+    }
+
+    .card {
+      width: 600px;
+      padding: 20px;
+      border: 2px solid #565656;
+      border-radius: 10px;
+      background-color: #fff;
+      box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .card h1 {
+      margin-top: 0;
+      font-size: 24px;
+      color: #333;
+    }
+
+    .card p {
+      font-size: 18px;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .question {
+      font-size: 24px;
+      color: #dc3545; /* Cor vermelha */
+      margin-top: 20px;
+    }
+
+    .buttons {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border: none;
+      background-color: #1500ff;
+      color: white;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #c82333;
+    }
+
+    .no-btn {
+      background-color: #1500ff;
+    }
+
+    .no-btn:hover {
+      background-color: #c82333;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Danyelle</h1>
+    <p>Gostaria de dizer que você é a melhor coisa que me aconteceu, e sou muito grato por ter te conhecido. Todos os dias estou sorrindo e o motivo é você. Obrigado por ser essa pessoa incrível e estar sempre me apoiando. Já não consigo imaginar nem mais um dia sem você.</p>
+    
+    <div class="question">Você quer namorar comigo?</div>
+
+    <div class="buttons">
+      <button onclick="window.location.href='sim.html'">Sim</button>
+      <button class="no-btn" onclick="alert('Só pode apertar em Sim.')">Não</button>
+    </div>
+  </div>
+</body>
+</html>
